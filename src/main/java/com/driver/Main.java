@@ -13,6 +13,7 @@ public class Main {
     int a=p.Product(m,n);
     int b=p.Product(m,n,o);
     double c=p.Product(m.0,n.0);
+    System.out.print(a+" "+b+" "+c);
 
 }
 class Product{
@@ -20,15 +21,16 @@ class Product{
 
 
     public int Product(int x, int y){
+        return (x*y);
 
 
     }
     public int Product(int x,int y,int z){
-
+        return (x*y*z);
     }
 
     public double Product(double x,double y){
-
+            return (x*y);
     }
 
 
