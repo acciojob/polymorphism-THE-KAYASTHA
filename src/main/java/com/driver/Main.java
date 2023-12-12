@@ -12,8 +12,8 @@ public class Main {
     Product p=new Product();
     int a=p.Product(m,n);
     int b=p.Product(m,n,o);
-    double c=p.Product(m.0,n.0);
-    System.out.print(a+" "+b+" "+c);
+    double c=p.Product((double)m,(double)n);
+
 
 }
 class Product{
